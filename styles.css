@@ -1,0 +1,65 @@
+/* Adicione ao seu arquivo styles.css existente */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+#pergunta-container {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Ajustado para tornar os botões mais arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+#botoes-container {
+    display: flex;
+    justify-content: center;
+}
+
+#motivacao-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+#motivacao {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+}
